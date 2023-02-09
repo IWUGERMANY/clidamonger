@@ -10,7 +10,8 @@ The package consists of the following dataframes:
   By month and by DWD climate station: average external air temperature (TA) in °C; for specific base temperatures: heating and cooling days (HD_10, HD_12, HD_15, CD_18, CD_20, CD_22), external air temperature during heating and during cooling days (TA_10, TA_12, TA_15, TAc_18, TAc_20, TAc_22).
 
 - **"data.sol"**
-  By geographical coordinates for Germany (latitude and longitude distances 0.02°): average shortwave radiation on horizontal surfaces (I_Hor) in W/m², listed .
+  Monthly values published by CM SAF
+  Geographical coordinates for Germany (latitude and longitude distances 0.02°): average shortwave radiation on horizontal surfaces (I_Hor) in W/m², listed .
 
 - **"list.station.ta"**
   By DWD station: geographical coordinates.
@@ -23,13 +24,13 @@ The package consists of the following dataframes:
 
 A description of the method can be found in
 
-_"Klimadaten für die Realbilanzierung. Grundlagen des Tools 'Gradtagzahlen-Deutschland.xlsx"_; MOBASY Teilbericht (German language); IWU2020; ISBN 978-3-941140-66-0 [http://dx.doi.org/10.13140/RG.2.2.25695.28324](http://dx.doi.org/10.13140/RG.2.2.25695.28324)
+Loga, Tobias & Großklos, Marc & Landgraf, Katrin. (2020). Klimadaten für die Realbilanzierung - Grundlagen des Tools „Gradtagzahlen-Deutschland.xlsx“ - MOBASY-Teilbericht. 10.13140/RG.2.2.25695.28324.
 
 ### Data sources
 
-The tabled values have been calculated by IWU - Institut Wohnen und Umwelt (www.iwu.de) by use of the following data sources:
+The tabled values have been calculated by IWU - [Institut Wohnen und Umwelt](https://iwu.de) by use of the following data sources:
 
-**Source of the temperature data:** DWD - Deutscher Wetterdienst (www.dwd.de)
+**Source of the temperature data:** [DWD - Deutscher Wetterdienst](https://www.dwd.de)
 
 CDC (Climate Data Center) DE
 [https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/daily/kl/historical/](https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/daily/kl/historical/)
@@ -69,9 +70,7 @@ library(clidamonger)
 
 ## License
 
-<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
-
-For details see [LICENSE.md](LICENSE.md).
+<a rel="license" href="https://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
 
 ---
 
@@ -155,4 +154,4 @@ Handling of missing values: Cells are empty
 
 ---
 
-IWU 2023-01-20
+IWU 2023-02-07
