@@ -5,7 +5,7 @@
 \alias{data.ta.hd}
 \title{Data.TA.HD}
 \format{
-An object of class \code{data.frame} with 11581 rows and 460 columns.
+An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 11651 rows and 460 columns.
 }
 \usage{
 data.ta.hd

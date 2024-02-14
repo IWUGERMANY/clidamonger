@@ -1,8 +1,8 @@
 Package: clidamonger
-Title: Monthly Climate Data for Germany, Usable for Heating and Cooling Calculations
-Description: This data package contains monthly climate data for Germany, it can be used for heating and 
+Title: Monthly Climate Data for Germany, Usable for Heating and Cooling Calculations 
+Description: This data package contains monthly climate data in Germany, it can be used for heating and 
     cooling calculations (external temperature, heating / cooling days, solar radiation).
-Version: 1.0.0
+Version: 1.1.0
 Authors@R:
     c(person(given = "Tobias", family = "Loga", email = "t.loga@iwu.de", role = "aut", comment = c(ORCID = "0000-0001-5097-5613")),
     person(given = "Guillaume", family = "Behem", email = "g.behem@iwu.de", role = "aut"),
@@ -16,3 +16,4 @@ URL: https://github.com/IWUGERMANY/clidamonger
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.2
 LazyData: true
+LazyDataCompression: xz

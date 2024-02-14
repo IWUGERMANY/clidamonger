@@ -5,7 +5,7 @@
 \alias{list.station.ta}
 \title{List.Station.TA}
 \format{
-An object of class \code{data.frame} with 826 rows and 10 columns.
+An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 831 rows and 10 columns.
 }
 \usage{
 list.station.ta
