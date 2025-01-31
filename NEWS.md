@@ -1,3 +1,7 @@
+# clidamonger 1.3.0
+
+* We've updated the datasets to include the data until December 2024.
+
 # clidamonger 1.2.0
 
 * We've updated the datasets to include the data until May 2024.

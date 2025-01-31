@@ -5,7 +5,7 @@
 \alias{data.sol}
 \title{Data.Sol}
 \format{
-An object of class \code{data.frame} with 3153 rows and 460 columns.
+An object of class \code{data.frame} with 3153 rows and 472 columns.
 }
 \usage{
 data.sol
